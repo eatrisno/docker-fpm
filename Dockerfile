@@ -8,6 +8,6 @@ RUN apt-get update && apt-get install -y \
 	ruby \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN gem install fpm -v 1.9.3 --no-ri --no-rdoc
+RUN gem install fpm -v 2.2.2 --no-ri --no-rdoc
 
 CMD ["fpm"]
