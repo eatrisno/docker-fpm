@@ -1,4 +1,4 @@
-FROM ubuntu:18
+FROM ubuntu:20
 LABEL maintainer="eko@altoshift.com"
 
 RUN apt-get update && apt-get install -y \
